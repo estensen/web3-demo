@@ -15,5 +15,8 @@ web3 = Web3(Web3.HTTPProvider(INFURA_URL))
 # In case address is mistyped
 checksum_address = Web3.toChecksumAddress("0xc6de9ebdd8e3cce618b56246029dbf11b052b462")
 balance = web3.eth.getBalance(checksum_address)
-print(balance)
+print(f"{balance} wei")
+
+balance_ether = web3.fromWei(balance, "ether")
+print(f"{balance_ether:f} ether")
 
