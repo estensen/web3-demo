@@ -2,6 +2,7 @@
 
 ## Docs
 [web3py](https://web3py.readthedocs.io/en/stable/quickstart.html)
+[ganache](https://www.trufflesuite.com/ganache)
 
 ## Run examples
 ```
