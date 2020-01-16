@@ -9,6 +9,8 @@ web3 = Web3(Web3.HTTPProvider(GANACHE_URL))
 # Set pre-funded account as sender
 web3.eth.defaultAccount = web3.eth.accounts[0]
 
+# Application Binary Interface
+# Way to interact with contracts
 abi = json.loads('')  # Fill in
 
 bytecode = ""  # Fill in
