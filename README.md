@@ -2,7 +2,10 @@
 
 ## Docs
 [web3py](https://web3py.readthedocs.io/en/stable/quickstart.html)
+
 [ganache](https://www.trufflesuite.com/ganache)
+
+[remix](https://remix.ethereum.org)
 
 ## Run examples
 ```
